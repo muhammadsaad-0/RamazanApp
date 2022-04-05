@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ques">
+        <item>ٱلْرَّحْمَـانُ</item>
+        <item>ٱلْرَّحِيْمُ</item>
+        <item>ٱلْمَلِكُ</item>
+        <item>ٱلْقُدُّوسُ</item>
+        <item>ٱلْسَّلَامُ</item>
+        <item>ٱلْمُؤْمِنُ</item>
+    </string-array>
+</resources>

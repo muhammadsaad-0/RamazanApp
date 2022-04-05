@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/asdf"
+    android:orientation="vertical"
+    android:paddingBottom="40dp"
+    android:weightSum="8"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/anstxt"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="4"
+            android:gravity="center"
+            android:text="ALLAH NAMES"
+            android:textColor="#151413"
+            android:textSize="90sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="35dp"
+        android:weightSum="3">
+
+        <ImageView
+            android:id="@+id/backimg"
+            android:layout_width="220dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:backgroundTint="#00FFFFFF"
+            app:srcCompat="@drawable/prev" />
+
+
+        <ImageView
+            android:id="@+id/nextimg"
+            android:layout_width="220dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:backgroundTint="#00FFFFFF"
+            android:isScrollContainer="false"
+            android:rotation="180"
+            app:srcCompat="@drawable/prev" />
+
+    </LinearLayout>
+</LinearLayout>

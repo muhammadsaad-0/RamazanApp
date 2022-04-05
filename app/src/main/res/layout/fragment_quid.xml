@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Quid">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/asdf"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Ramzan Guide"
+                android:textColor="#090808"
+                android:textSize="30sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="In the holiest month of the Islamic calendar, Muslims around the world abstain from food and drink between sunrise and sunset each day.
+
+This month is a time to seek the forgiveness and mercy of God. It is an opportunity to reap great spiritual rewards, but also a reminder to nurture connections with our communities and to reach out to people who need help.
+
+This Ramadan, Muslims will focus on:
+
+Improving our character
+Practising restraint and self-discipline improves character and willpower. As well as taking care to avoid actions that might invalidate their fast, Muslims also try to cultivate purity of thought and deed at all levels. For example, the Prophet Muhammad (peace be upon him) said, ‘Whoever fails to leave off ruinous speech, and acting on it [in Ramadan], Allah does not need him to leave off eating and drinking.’ (Hadith Bukhari).
+
+Following the sunnah
+The Prophet (peace be upon him), embodied the spirit of the Qur’an. Muslims try to follow his example (sunnah) in drawing closer to God. In Ramadan, these include eating suhur, a pre-dawn meal – even if it is just water – and breaking the fast on time. Muslims usually break their fast with dates, choosing an odd number as the Prophet (peace be upon him) did, or with water.Reducing waste
+The Prophet Muhammad (peace be upon him) discouraged waste – especially of food and water – as God says in the Qur’an: “Eat and drink and don’t be wasteful. Verily Allah dislikes those who waste.” (Qur’an 7:31) Ramadan is a good opportunity to re-evaluate and cut down on excess consumption and waste.
+
+Giving charity
+The Prophet (peace be upon him) was the most generous of people, and he was even more generous in Ramadan. Many Muslims try to give their annual zakat, charitable giving, in Ramadan each year, and give zakat al-fitr before the Eid prayer. People are motivated to do more this month, since spiritual rewards for both worship and charity are multiplied at this time.
+
+Our annual Ramadan campaign enables people to share the blessings of the holy month with families across the globe. The donations we received last year alone allowed us provide food to more than 900, 000 people in 33 countries during Ramadan."
+                android:textColor="#070707"
+                android:textSize="24sp" />
+        </LinearLayout>
+    </ScrollView>
+</ScrollView>

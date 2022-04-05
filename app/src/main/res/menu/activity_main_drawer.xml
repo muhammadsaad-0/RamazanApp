@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/prayers_Time"
+            android:title="Namaz Timing" />
+        <item
+            android:id="@+id/nav_home"
+            android:title="Ramzan Calendar" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:title="Names Of AllAH" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:title="Duaein" />
+
+        <item
+            android:id="@+id/quid"
+            android:title="Ramzan Guide" />
+
+
+    </group>
+</menu>
